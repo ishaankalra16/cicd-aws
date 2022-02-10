@@ -1,6 +1,6 @@
 # Vprofile-project
 
-A demo application integrated, tested and analysed with the help of aws services such as CodeCommit, CodeArtifact, CodeBuild, CodeDeploy, CodePipeline, Systems Manager, SNS and then storing the artifact in Amazon S3 for Continous Delivery.
+A demo application Continous Integration/Continous Delivery pipeline build with the help of aws services such as CodeCommit, CodeArtifact, CodeBuild, CodePipeline, Systems Manager, SNS, SonarCloud and then storing the artifact in Amazon S3 for Continous Delivery.
 
 # Prerequisites
 #
@@ -18,7 +18,7 @@ A demo application integrated, tested and analysed with the help of aws services
 
 # Architecture 
 
-<img width="824" alt="Screenshot (348)" src="https://user-images.githubusercontent.com/68735863/152557734-125cf611-0ff4-4a57-a73b-2b65638346d2.png">
+<img width="960" alt="Screenshot (380)" src="https://user-images.githubusercontent.com/68735863/153371912-d1d9f120-a608-43d4-a4d1-29d578f3dc7c.png">
 
 # Flow of Execution
 - Logging into AWS Account
@@ -50,6 +50,13 @@ A demo application integrated, tested and analysed with the help of aws services
   - Build
   - Deploy to S3 Bucket
 - Test  Pipeline
+- Create Beanstalk Application and RDS database
+- Update RDS Security Group to give access to beanstalk instances
+- Deploy the Database in RDS
+- Creating another build project to build artifact for software testing
+- Deploying the artifact to Beanstalk Application
+- Creating the Build Job for SoftwareTesting
+- Uploading Screenshot to S3 Bucket
 
 # Database
 Here,we used Mysql DB 
@@ -64,22 +71,22 @@ Then look for the file :
 
 # Screenshots
 
-![Screenshot (349)](https://user-images.githubusercontent.com/68735863/152558902-e79899ee-4e40-4f45-b072-6b942279a5ce.png)
+![Screenshot (382)](https://user-images.githubusercontent.com/68735863/153373743-cc6fd386-ba56-462a-81dc-f4104cf377c5.png)
 
-![Screenshot (350)](https://user-images.githubusercontent.com/68735863/152558934-bcd60561-7187-4d5d-83e8-3f96332ed248.png)
+![Screenshot (383)](https://user-images.githubusercontent.com/68735863/153373767-76098caa-abfd-4ef8-ac54-61d8ee710b77.png)
 
-![Screenshot (351)](https://user-images.githubusercontent.com/68735863/152558956-465c9e6c-6ab1-413a-975b-9e3e226fb9ab.png)
+![Screenshot (384)](https://user-images.githubusercontent.com/68735863/153373784-a20686ad-fc24-4b4c-af95-aa75d0bb4745.png)
 
-![Screenshot (352)](https://user-images.githubusercontent.com/68735863/152558983-eef8666a-6905-4a51-b470-695093069904.png)
+![Screenshot (385)](https://user-images.githubusercontent.com/68735863/153373808-99a7eeda-8b63-42b6-bcc9-f65f3ae0b440.png)
 
-![Screenshot (353)](https://user-images.githubusercontent.com/68735863/152559018-125659fd-8756-4326-b904-60fa9965eb1f.png)
+![Screenshot (386)](https://user-images.githubusercontent.com/68735863/153373838-b043bf1d-296a-4f2c-ab1f-8c4a18f3bcef.png)
 
-![Screenshot (354)](https://user-images.githubusercontent.com/68735863/152559049-84eff1d1-332d-44e5-9276-dd0da2f743a0.png)
+![Screenshot (387)](https://user-images.githubusercontent.com/68735863/153373871-3c9c71f2-7403-49a4-b218-0ae3a47355c2.png)
 
-![Screenshot (355)](https://user-images.githubusercontent.com/68735863/152559065-5f3621e2-a9d1-42eb-835c-2be2a3983a13.png)
+![Screenshot (388)](https://user-images.githubusercontent.com/68735863/153373890-a0b496c4-d8ac-46bd-b28e-8bc03972656f.png)
 
-![Screenshot (356)](https://user-images.githubusercontent.com/68735863/152559083-926577a3-6b45-4ee2-a1d7-a7c9409c4d25.png)
+![Screenshot (389)](https://user-images.githubusercontent.com/68735863/153373918-7fc49d7a-2ba1-466c-98f0-be29f1783ca9.png)
 
-![Screenshot (357)](https://user-images.githubusercontent.com/68735863/152559110-8cdc9169-84c7-4d43-8a4e-0e3c31f89b7f.png)
+![Screenshot (390)](https://user-images.githubusercontent.com/68735863/153373938-dd2f7ff2-89d9-4cc1-b709-d22d37888074.png)
 
-
+![Screenshot (391)](https://user-images.githubusercontent.com/68735863/153373967-8f1a6b36-9e04-4446-aa20-8281d4b62144.png)
