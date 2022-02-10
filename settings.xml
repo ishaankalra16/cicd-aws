@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+  <servers>
+        <server>
+            <id>codeartifact</id>
+            <username>aws</username>
+            <password>eyJ2ZXIiOjEsImlzdSI6MTY0NDQ3NzYxOSwiZW5jIjoiQTEyOEdDTSIsInRhZyI6IkZMWnpqeTRLTU1rNDZ2azdKZ05mcmciLCJleHAiOjE2NDQ1MjA4MTksImFsZyI6IkExMjhHQ01LVyIsIml2IjoiYUFDWmd1aFFSZVBSTkI3SyJ9.51dJoe_YudFwKX-wacFdMQ.fjF5f_eJavkdH4PK.7prVVldiW2Vdf1IrMKnaOf1VxY0SOpwSjCR-a6B_yathQ6grfnJcsFp6q1S4PmJq-v8-kd6HQjYsc8MzCH72DvKCnV1DFMGa8877CwiFdgzo64s92kk1s4h38-A1K_FP5YKaGB7hhaWVe9VOI9Qksdl4fMz0yAonO2yPJn5-rjKAsvj7TQN0dueCjN8tblIANdqTS7Xl4XPczI0qQ_b02t3AxzEscD2GC8j7F5xsNGBpPaqqdNvOlsBuV3C4Oq5jJO-PgRNAC87jUQmpmTT3IE7jJ_Dh3zV6NzjVtTAMORIY6pUUuEawT3RDEqtlNGTgSpQNpk4DBw43IDYSqOAGTb4_GoSWa0-jidcJfY2cy4YIVPL2-STUs338y93gFyh12SkqUUtwjfQmPyQuHRAJ7y-3xg3a4mU87gWH2fAGAGpQebK8WgCdlhPEaWO6OdAjCKj7FPePnnjoShscP9BS6kN_Q2MDv4ByQ_lJci6k_LXlCST5FCUAlc7W9QgEVYFDq08-VD2xFbRL8rzqYhyFL5K0f8-As2GWPnBMKsFsmF0IYaG6M89yOBgrVIVBx2ZJWdNf7f-jkOGKBc3sa2TxMQlAoMr1sSIja6OwdBsnIPEh2m2E2RkwUHpHeT61KG3JXKW68waE-JFvc9j-TOy8ged-2xRnk9OATUlNUnbBtLTGRNPEaPH5yavTi4EGjeIutfzcRKBJ5K-s4F6IWgiPIAuJJzVhzea4kEkLRBtvela6AUWn9BPx3S3xbBngAAncdoo4kBauqYB_uaIujrd6NRmCm39Ge84exIreb5yvZ3CJt_oSUoNCMdrZKGYLN0B2wj16vxYrGe0uFPdQ7QhG_zSnFX4M4sDgbA01a-d-GQ6PIfcX61nKASOjlWyFS2jAQaw1Vg5thnhuXHmKtPFiS-XJqIQoQw2qvMsBxyhTYKEHZ_f5aRyJTA5w4Q.dze_0Jzx7tIbFGPzLlZIMw</password>
+        </server>
+    </servers>
+<profiles>
+  <profile>
+    <id>default</id>
+    <repositories>
+      <repository>
+        <id>codeartifact</id>
+    <url>https://visualpath-159016162158.d.codeartifact.ap-south-1.amazonaws.com/maven/vprofile-maven-repo/</url>
+      </repository>
+    </repositories>
+  </profile>
+</profiles>
+<activeProfiles>
+        <activeProfile>default</activeProfile>
+    </activeProfiles>
+<mirrors>
+  <mirror>
+    <id>codeartifact</id>
+    <name>visualpath-vprofile-maven-repo</name>
+    <url>https://visualpath-159016162158.d.codeartifact.ap-south-1.amazonaws.com/maven/vprofile-maven-repo/</url>
+    <mirrorOf>*</mirrorOf>
+  </mirror>
+</mirrors>
+</settings>
