@@ -1,7 +1,7 @@
 This project is forked from Github repository: https://github.com/devopshydclub/vprofile-project.git
 # Vprofile-project
 
-A project deployed with the help of Continous Integration/Continous Delivery pipeline with the help of aws services such as CodeCommit, CodeArtifact, CodeBuild, CodePipeline, Systems Manager, SNS, SonarCloud and then storing the artifact in Amazon S3 for Continous Delivery.
+A project deployed with the help of Continuous Integration/Continuous Delivery pipeline with the help of aws services such as CodeCommit, CodeArtifact, CodeBuild, CodePipeline, Systems Manager, SNS, SonarCloud and then storing the artifact in Amazon S3 for Continous Delivery.
 
 # Prerequisites
 #
